@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title-->
+    <title>cart page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!--hero-section-->
+    <section id="hero">
+
+    <!--nav-->
+    <nav class="navigation">
+        <!--logo of the site-->
+        <a href="index.html" class="logo">Hesh<span>Clothing.</span></a>
+            <!--menu-->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="servicepage.html">Services</a></li>
+                <li><a href="FAQ.html">Faq's</a></li>
+                <li><a href="clothes.html">Shop</a></li>
+            </ul>
+            <a href="style.html" class="appointment-btn">Styling Consultation</a>
+                    <!-- Cart Button ------>
+
+        <a href="cart.html" class="cart-icon">
+            <img src="/images/cart.png" alt="Cart" />
+        </a>
+
+            </nav><!--nav-end-->
+
+
+                <!--image of the page-->
+                <div class="hero-img8">
+                    <img alt="" src="images/j.png">
+                </div>
+
+                <section class="cart-section">
+                    <h1>Your Cart</h1>
+                <table id="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-table-body">
+                       
+                    </tbody>
+                </table>
+                
+                <div id="cart-total">
+                    
+                </div>
+                <div id="buttons-container">
+                    <button id="clear-cart-btn" onclick="clearCart()">Clear Cart</button>
+                    <button id="buy-now-btn" onclick="buyNow()">Buy Now</button>
+                </div>
+                </section>
+
+    <!---------------Footer----------------------------->
+    <footer>
+        <div class="footer-container">
+            <!--**comoany-box**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="#" class="logo">Hesh<span>Clothing.</span></a>
+                <!--details-->
+                <p>Hesh Clothing is a private clothing brand committed to delivering exceptional fashion across a range of styles and trends for more than 39 years.</p>
+                
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Quick Links</strong>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="servicepage.html">Services</a></li>
+                    
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>External Links</strong>
+                <ul>
+                    
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Trem's and Condition's</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Contact US</strong>
+                <ul>
+                    <li>Phone numbers :</li>
+                    <ol>+94 11 2140 000</ol>
+                    <ol>+94 11 2140 040</ol>
+                    <li>E-Mail :</li>
+                    <ol>contactus@heshclothing.com</ol>
+                </ul>
+            </div>
+            
+   
+        </div>
+
+        <!--**bottom**********************-->
+        <div class="footer-bottom">
+            <span class="copyright">&#169; 2024 Hesh Clothing PLC. All rights reserved</span>
+        </div>
+    </footer>
+    <!---------------Footer end----------------------------->
+    <script src="/Scripts/script.js"></script>
+</body>
+</html>
